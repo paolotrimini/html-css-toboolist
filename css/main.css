@@ -1,0 +1,146 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding-left: 0;
+  background-color: #E0E0E0;
+}
+
+main {
+  margin: 20px 20%;
+}
+
+section {
+  background-color: white;
+}
+
+div {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.button-1 {
+  background-color: lightblue;
+}
+
+.button-2 {
+  background-color: violet;
+}
+
+.button-3 {
+  background-color: green;
+}
+
+.button-4 {
+  background-color: orange;
+}
+
+.button-5 {
+  background-color: #FF69B4;
+}
+
+.button-6 {
+  background-color: lightgreen;
+}
+
+/* header */
+
+header {
+  background-color: white;
+  padding: 10px;
+}
+
+#logo {
+  margin-top: 10px;
+  background: white;
+}
+
+h1 {
+  display: inline-block;
+  background-color: white;
+}
+
+.titoli {
+  font-size: 30px;
+  font-family: sans-serif;;
+  background-color: white;
+}
+
+.icona-triangolo {
+  font-size: 18px;
+  background-color: white;
+}
+
+/* intestazione */
+
+.sezione-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 2px;
+}
+
+
+.add-1 {
+  color: white;
+  background-color: lightblue;
+  margin-left: 25px;
+}
+
+.add-2 {
+  color: #E0E0E0;
+  background-color: white;
+  margin-left: 1px;
+  border: 1px solid #E0E0E0;
+}
+
+.button-elenco {
+  color: white;
+  margin-left: 25px;
+  border-radius: 15px;
+  padding: 5px;
+
+}
+
+/* sezioni */
+
+img {
+  background-color: white;
+  width: 20px;
+  margin-left: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+div {
+  background-color: white;
+}
+
+.elenco-voci {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.sezione-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
