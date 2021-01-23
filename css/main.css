@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding-left: 0;
-  background-color: #E0E0E0;
+  box-sizing: border-box;
+  background-color: #B0C4DE;
 }
 
 main {
@@ -28,7 +29,7 @@ button {
 }
 
 .button-1 {
-  background-color: lightblue;
+  background-color: #00BFFF;
 }
 
 .button-2 {
@@ -36,7 +37,7 @@ button {
 }
 
 .button-3 {
-  background-color: green;
+  background-color: #20B2AA;
 }
 
 .button-4 {
@@ -48,38 +49,36 @@ button {
 }
 
 .button-6 {
-  background-color: lightgreen;
+  background-color: #9ACD32;
 }
+
 
 /* header */
 
 header {
   background-color: white;
-  padding: 10px;
 }
 
 #logo {
-  margin-top: 10px;
+  width: 50px;
+  margin: 10px;
   background: white;
+  vertical-align: middle;
 }
 
 h1 {
   display: inline-block;
   background-color: white;
+  vertical-align: middle;
+  font-size: 40px;
+  font-family: sans-serif;
 }
 
-.titoli {
-  font-size: 30px;
-  font-family: sans-serif;;
+span {
   background-color: white;
 }
 
-.icona-triangolo {
-  font-size: 18px;
-  background-color: white;
-}
-
-/* intestazione */
+/* nav section */
 
 .sezione-top {
   border-top-left-radius: 5px;
@@ -89,58 +88,69 @@ h1 {
   margin-bottom: 2px;
 }
 
-
-.add-1 {
+.nav-button-1 {
   color: white;
-  background-color: lightblue;
+  background-color: #00BFFF;
   margin-left: 25px;
 }
 
-.add-2 {
-  color: #E0E0E0;
+.nav-button-2 {
+  color: #B0C4DE;
   background-color: white;
   margin-left: 1px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #B0C4DE;
+}
+
+/* list section */
+
+img {
+  width: 17px;
+  height: auto;
+  background-color: white;
+}
+
+ul {
+  background-color: white;
+  list-style-type: none;
+}
+
+li {
+  font-weight: normal;
+  font-size: 17px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+.list-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px
+}
+
+.box-1 {
+  margin: 20px 30px;
+  padding: 0;
+}
+
+.box-list {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.sezione-centrale {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .button-elenco {
+  font-size: 9px;
   color: white;
   margin-left: 25px;
-  border-radius: 15px;
-  padding: 5px;
-
-}
-
-/* sezioni */
-
-img {
-  background-color: white;
-  width: 20px;
-  margin-left: 30px;
-}
-
-p {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: sans-serif;
-  background-color: white;
-  padding: 20px;
-  margin-left: 30px;
-}
-
-div {
-  background-color: white;
-}
-
-.elenco-voci {
-  font-size: 18px;
-  font-family: sans-serif;
-  background-color: white;
-}
-
-.sezione-bottom {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  border-radius: 9px;
+  padding: 7px;
 }
